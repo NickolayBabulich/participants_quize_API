@@ -1,0 +1,58 @@
+[
+  {
+    "model": "participants.participants",
+    "pk": 3,
+    "fields": {
+      "first_name": "Николай",
+      "second_name": "Бабулич",
+      "patronymic": "Олегович",
+      "birthday": "24.05.1990",
+      "district_id": 41,
+      "address": "PK",
+      "email": "fantasy-irc@mail.ru",
+      "phone": "89147830123",
+      "status": true,
+      "timestamp": "2024-04-09T02:58:56.924Z",
+      "time_sms_send": "2024-04-09T03:00:29.264Z",
+      "verify": "2024-04-09T02:58:07.054Z"
+    }
+  },
+  {
+    "model": "participants.testsending",
+    "pk": 2,
+    "fields": {
+      "first_name": "Николай",
+      "second_name": "Бабулич",
+      "patronymic": "Олегович",
+      "birthday": "24.05.1990",
+      "district_id": 41,
+      "address": "PK",
+      "email": "fantasy-irc@mail.ru",
+      "phone": "89147830123"
+    }
+  },
+  {
+    "model": "participants.log",
+    "pk": 2,
+    "fields": {
+      "user_id": 3,
+      "email": "fantasy-irc@mail.ru",
+      "status": "accepted",
+      "server_response": "201",
+      "timestamp": "2024-04-09T02:58:56.929Z"
+    }
+  },
+  {
+    "model": "participants.winners",
+    "pk": 1,
+    "fields": {
+      "winner_id": 3,
+      "first_name": "Николай",
+      "second_name": "Б",
+      "patronymic": "Олегович",
+      "email": "fantasy-irc@mail.ru",
+      "phone": "+7 (9**) *** 0123",
+      "prize": "Баф с символикой синий"
+    }
+  }
+]
