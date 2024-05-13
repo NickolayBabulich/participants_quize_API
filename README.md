@@ -58,8 +58,6 @@ API, выгрузка данных в форматах CSV и Excel, подтв�
   - эндпоинт - GET - ```/api/participants/winners?phone=0123```
   - параметры:
     - phone - последние 4 цифры телефона
-![winners all.png](tmp%2Fwinners%20all.png)
-![winner.png](tmp%2Fwinner.png)
 
 
 ## Установка
